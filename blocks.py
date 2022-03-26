@@ -2,7 +2,7 @@ import numpy as np
 from scipy.stats import poisson
 import csv
 
-with open('C:\\Users\\Bill\Desktop\\gitcoin\\bitcoinity_data.csv') as csv_file:
+with open('bitcoinity_data.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     next(csv_reader) #skip header
     minsinday = 60*24
